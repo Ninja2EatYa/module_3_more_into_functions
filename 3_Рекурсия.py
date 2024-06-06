@@ -7,4 +7,4 @@ def get_multiplied_digits(number):
         return first * get_multiplied_digits(int(str_number[1:]))
 
 number = input('Введите любое число: ',)
-print('Ответ: ', get_multiplied_digits(number))
+print('Произведение всех цифр числа: ', get_multiplied_digits(number))
